@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --kanit: "Kanit", sans-serif;
+  --raleway: "Raleway", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    to right top,
+    #f3ccf3,
+    #efbaf2,
+    #eaa8f2,
+    #e496f2,
+    #dc84f3
+  );
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 98.1vh;
+}
+
+h1,
+button,
+div,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+.main-box {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  background: linear-gradient(
+    to right,
+    #5f0f40,
+    #71053c,
+    #810035,
+    #8f002b,
+    #9a031e
+  );
+  padding: 30px 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 16px 16px -8px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  color: #ffe7c1;
+  font-family: var(--kanit);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  z-index: 1;
+}
+
+.title {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+h2 {
+  position: absolute;
+  color: #ffad2a;
+  font-family: var(--kanit);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  top: -21px;
+  left: 0;
+  z-index: -1;
+}
+
+input {
+  padding: 15px 40px;
+  text-align: center;
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-family: var(--raleway);
+  font-weight: 600;
+  color: #11235a;
+  font-size: 20px;
+  margin-bottom: 25px;
+  outline: 0;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+#btn1 {
+  background: linear-gradient(
+    to right top,
+    #163020,
+    #1c3724,
+    #223e28,
+    #29462c,
+    #304d30
+  );
+  color: #fff;
+  height: 50px;
+  width: 250px;
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: var(--kanit);
+  margin-bottom: 10px;
+}
+
+#btn1:hover {
+  background: #3d573d;
+}
+
+#btn2 {
+  background: linear-gradient(
+    to right top,
+    #163020,
+    #1c3724,
+    #223e28,
+    #29462c,
+    #304d30
+  );
+  color: #fff;
+  height: 50px;
+  width: 250px;
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: var(--kanit);
+  margin-bottom: 10px;
+}
+
+#btn2:hover {
+  background: #3d573d;
+}
+
+#btn3 {
+  background: linear-gradient(
+    to right top,
+    #163020,
+    #1c3724,
+    #223e28,
+    #29462c,
+    #304d30
+  );
+  color: #fff;
+  height: 50px;
+  width: 250px;
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: var(--kanit);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#btn3:hover {
+  background: #3d573d;
+}
+
+#copyBtn {
+  background: linear-gradient(
+    to right,
+    #392467,
+    #42286f,
+    #4b2c77,
+    #54317f,
+    #5d3587
+  );
+  color: #fff;
+  height: 50px;
+  width: 250px;
+  border: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: var(--kanit);
+  cursor: pointer;
+}
+
+#copyBtn:hover {
+  background: linear-gradient(
+    to right,
+    #a367b1,
+    #88559e,
+    #6d448c,
+    #533479,
+    #392467
+  );
+}
+
+span {
+  color: #ff9800;
+}
