@@ -9,6 +9,8 @@ const lowercase = uppercase.toLocaleLowerCase();
 const number = "1234567890";
 const special = "!@#$%&*";
 
+const icon2 = document.querySelector(".icon-2");
+
 l4Btn.addEventListener("click", function () {
   const upper = uppercase[Math.floor(Math.random() * uppercase.length)];
   const lower = lowercase[Math.floor(Math.random() * lowercase.length)];
@@ -50,5 +52,6 @@ l10Btn.addEventListener("click", function () {
 copyBtn.addEventListener("click", function () {
   navigator.clipboard.writeText(output.value);
   output.value = "copied";
-  copyBtn.innerHTML = "Password copied";
+  icon2.style.display = "block";
+  copyBtn.style.display = "none";
 });

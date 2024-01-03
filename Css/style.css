@@ -98,7 +98,7 @@ input {
   -o-border-radius: 10px;
   font-family: var(--raleway);
   font-weight: 600;
-  color: #11235a;
+  color: #fff;
   font-size: 20px;
   margin-bottom: 25px;
   outline: 0;
@@ -193,7 +193,34 @@ input::placeholder {
   background: #3d573d;
 }
 
-#copyBtn {
+.parent {
+  position: relative;
+}
+
+.icon i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  padding: 15px 0;
+  padding-right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.icon-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #f5eaeaa9;
+  padding: 15px 0;
+  padding-right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+/* #copyBtn {
   background: linear-gradient(
     to right,
     #392467,
@@ -226,7 +253,7 @@ input::placeholder {
     #533479,
     #392467
   );
-}
+} */
 
 span {
   color: #ff9800;
